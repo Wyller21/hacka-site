@@ -4,13 +4,14 @@ export const MenuBar = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #FFF;
-    box-shadow: 5px 5px 5px #000000;
+    height: 60px;
+    background-color: #e9f1f1;
+    box-shadow: 2px 2px 2px #00000039;
 `
 
 export const LogoImage = styled.img`
-    height: 40px;
-    width: 100px;
+    height: 60px;
+    width: 150px;
 `
 
 export const MenuItems = styled.div`
@@ -27,12 +28,13 @@ export const Items = styled.button`
     display: flex;
     font-size: 20px;
     font-weight: 700;
-    
+    border-radius: 5px;
     margin: 0 5px 5px 20px;
-    padding: 0 0 2px 0;
+    padding: 2px;
     transition: .15s transform ease;
     transform: scale(1);
     &:hover {
+        background-color: #cacaca;
         color: #310094;
         transform: scale(1.1);
     }
@@ -44,10 +46,10 @@ export const Button = styled.button`
     border: none;
     color: #fff;
     margin-right: 5px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
     border-radius: 5px;
-    background-color: #cacaca96;
+    
     transition: .15s transform ease;
     transform: scale(1);
     &:hover {
